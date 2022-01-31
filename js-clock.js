@@ -2,9 +2,9 @@ function getClock() {
     const xMas = new Date("2021, 12, 25");
     let today = new Date();
     let timesLeft = xMas - today;
-	let perDay = 1000*60*60*24
-	let perHour = 1000*60*60
-	let perMinute = 1000*60
+    let perDay = 1000*60*60*24
+    let perHour = 1000*60*60
+    let perMinute = 1000*60
 
     let daysLeft = Math.floor(timesLeft / perDay);
     let hoursLeft = Math.floor((timesLeft % perDay) / perHour);
