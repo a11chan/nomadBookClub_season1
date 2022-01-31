@@ -16,8 +16,8 @@ function getClock() {
     let minutePrint = String(minutesLeft).padStart(2, "0");
     let secondPrint = String(secondsLeft).padStart(2, "0");
 
-    let merry = document.querySelector(".js-clock");
-    merry.innerText =
+    let clockPrint = document.querySelector(".js-clock");
+    clockPrint.innerText =
         `${dayPrint}d ${hourPrint}h ${minutePrint}m ${secondPrint}s`;
 }
 
