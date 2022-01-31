@@ -7,7 +7,7 @@ function showClock() {
     let minuteTimes = 1000*60
 
     let daysLeft = Math.floor(timesLeft / dayTimes);
-    let hoursLeft = Math.floor((timesLeft - daysLeft*dayTimes) / hourTimes);
+    let hoursLeft = Math.floor((timesLeft % dayTimes) / hourTimes);
     let minutesLeft = Math.floor((timesLeft % hourTimes) / minuteTimes );
     let secondsLeft = Math.floor((timesLeft % minuteTimes) / 1000);
 
