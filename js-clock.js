@@ -1,5 +1,5 @@
 function showClock() {
-    const xMas = new Date("2021, 12, 25");
+    const xMas = new Date("2022, 12, 25");
     let today = new Date();
     let timesLeft = xMas - today;
     let dayTimes = 1000*60*60*24
