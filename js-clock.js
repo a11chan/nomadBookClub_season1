@@ -1,4 +1,4 @@
-function getClock() {
+function showClock() {
     const xMas = new Date("2021, 12, 25");
     let today = new Date();
     let timesLeft = xMas - today;
@@ -21,5 +21,5 @@ function getClock() {
         `${dayPrint}d ${hourPrint}h ${minutePrint}m ${secondPrint}s`;
 }
 
-getClock();
-setInterval(getClock, 1000);
+showClock();
+setInterval(showClock, 1000);
