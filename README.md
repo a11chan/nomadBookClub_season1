@@ -44,7 +44,7 @@ function showClock() {
 
     let daysLeft = Math.floor(timesLeft / dayTimes);
     let hoursLeft = Math.floor((timesLeft % dayTimes) / hourTimes);
-    let minutesLeft = Math.floor((timesLeft % hourTimes) / minuteTimes );
+    let minutesLeft = Math.floor((timesLeft % hourTimes) / minuteTimes);
     let secondsLeft = Math.floor((timesLeft % minuteTimes) / 1000);
 
     let dayPrint = String(daysLeft).padStart(2, "0");
