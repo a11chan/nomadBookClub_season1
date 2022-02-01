@@ -2,14 +2,14 @@ function showClock() {
     const xMas = new Date("2022, 12, 25");
     let today = new Date();
     let timesLeft = xMas - today;
-    let dayTimes = 1000*60*60*24
-    let hourTimes = 1000*60*60
-    let minuteTimes = 1000*60
+    let day = hour*24
+    let hour = minute*60
+    let minute = 1000*60
 
-    let daysLeft = Math.floor(timesLeft / dayTimes);
-    let hoursLeft = Math.floor((timesLeft % dayTimes) / hourTimes);
-    let minutesLeft = Math.floor((timesLeft % hourTimes) / minuteTimes);
-    let secondsLeft = Math.floor((timesLeft % minuteTimes) / 1000);
+    let daysLeft = Math.floor(timesLeft / day);
+    let hoursLeft = Math.floor((timesLeft % day) / hour);
+    let minutesLeft = Math.floor((timesLeft % hour) / minute);
+    let secondsLeft = Math.floor((timesLeft % minute) / 1000);
 
     let dayPrint = String(daysLeft).padStart(2, "0");
     let hourPrint = String(hoursLeft).padStart(2, "0");
