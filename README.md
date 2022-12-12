@@ -1,7 +1,8 @@
-# nomadBookClub_season1
+# 노마드 개발자 북클럽 1기 리팩터링 과제
 
-#### [노개북](https://nomadcoders.co/community/book-club) 1기 리팩터링 과제
+:pushpin: [북클럽 스터디 정리](https://www.notion.so/allchan/DONE-cbaa5ddd21534a7297aa9e21d3facf5b)
 
+:pushpin: X-Mas Timer : https://codesandbox.io/s/gracious-agnesi-q8053?file=/index.js
 
 ##### 수정전
 ~~~javascript
@@ -99,5 +100,3 @@ function getTimeString ({daysLeft, hoursLeft, minutesLeft, secondsLeft}){
 showTimer();
 setInterval(showTimer, 1000);
 ~~~
-
-demo: https://codesandbox.io/s/gracious-agnesi-q8053?file=/index.js
