@@ -1,8 +1,12 @@
 # 노마드 개발자 북클럽 1기 리팩터링 과제
 
+<a href="http://www.yes24.com/Product/Goods/11681152">
+    <img src="http://image.yes24.com/goods/11681152/XL" alt-text="clean code book img" width="200" />
+</a>
+
 :pushpin: [북클럽 스터디 정리](https://www.notion.so/allchan/DONE-cbaa5ddd21534a7297aa9e21d3facf5b)
 
-:pushpin: X-Mas Timer : https://codesandbox.io/s/gracious-agnesi-q8053?file=/index.js
+:pushpin: 리펙터링 결과물(X-Mas Timer) : https://codesandbox.io/s/gracious-agnesi-q8053?file=/index.js
 
 ##### 수정전
 ~~~javascript
